@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
+
 public class ForgotPasswordPage { // Объявляем публичный класс ForgotPasswordPage
     private WebDriver driver; // Объявляем переменную driver типа WebDriver
     private By loginButton = By.xpath(".//a[text()='Войти']"); // Объявляем локатор для кнопки "Войти"

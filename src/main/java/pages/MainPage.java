@@ -2,6 +2,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
+
 // Создаем класс MainPage для представления главной страницы сайта
 public class MainPage {
     private WebDriver driver;

@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
+import io.qameta.allure.Step;
 
 public class LoginPage { // Объявляем класс LoginPage
 
@@ -15,40 +16,47 @@ public class LoginPage { // Объявляем класс LoginPage
 
     // Конструктор класса LoginPage для инициализации объекта WebDriver
     public LoginPage(WebDriver driver) {
-        this.driver = driver; // Устанавливаем переданный WebDriver
+        this.driver = driver; // WebDriver
     }
 
     // Метод для ввода email в поле
+    @Step("Ввод email: {email}") // аннотация Step с описанием шага
     public void setEmailField(String email) {
         driver.findElement(emailField).sendKeys(email); // Находим поле ввода email и вводим переданное значение
     }
 
     // Метод для ввода пароля в поле
+    @Step("Ввод пароля") // Step с описанием шага
     public void setPasswordField(String password) {
         driver.findElement(passwordField).sendKeys(password); // Находим поле ввода пароля и вводим переданное значение
     }
 
     // Метод для клика по кнопке входа
+    @Step("Клик по кнопке 'Войти'") // Step с описанием шага
     public void clickLoginButton() {
         driver.findElement(loginButton).click(); // Находим кнопку входа и кликаем по ней
     }
 
     // Метод для клика по кнопке регистрации
+    @Step("Клик по кнопке 'Зарегистрироваться'") //  Step с описанием шага
     public void clickRegisterButton() {
         driver.findElement(registerButton).click(); // Находим кнопку регистрации и кликаем по ней
     }
 
     // Метод для клика по кнопке восстановления пароля
+    @Step("Клик по кнопке 'Восстановить пароль'") //  Step с описанием шага
     public void clickForgotPasswordButton() {
         driver.findElement(forgotPasswordButton).click(); // Находим кнопку восстановления пароля и кликаем по ней
     }
 
     // Метод для получения текста на странице входа
+    @Step("Получение текста заголовка страницы входа") //  Step с описанием шага
     public String getEnterLabelText() {
         return driver.findElement(enterLabelText).getText(); // Возвращаем текст на странице входа
     }
 
     // Метод для установки информации о пользователе (email, пароль)
+    @Step("Заполнение данных для входа: email={email}, пароль=****") //  Step с описанием шага
     public void setClientLoginData(String email, String password) {
         setEmailField(email); // Устанавливаем email
         setPasswordField(password); // Устанавливаем пароль

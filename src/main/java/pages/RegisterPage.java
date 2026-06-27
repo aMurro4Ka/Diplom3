@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
+
 public class RegisterPage { // Объявляем класс RegisterPage
 
     private WebDriver driver; // Приватное поле для экземпляра WebDriver

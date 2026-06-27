@@ -5,6 +5,7 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
+
 public class ClientSteps { // Объявляем публичный класс ClientSteps
     public static String baseURL = "https://stellarburgers.education-services.ru/"; // Объявляем переменную baseURL для хранения базового URL
     public static String clientLoginPath = "/api/auth/login"; // Объявляем переменную clientLoginPath для хранения пути к ресурсу логина пользователя

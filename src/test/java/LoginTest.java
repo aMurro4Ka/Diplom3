@@ -15,6 +15,7 @@ import client.ClientFaker;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class LoginTest extends BrowserConfiguration  {
     private Client client; // Поле для хранения данных о пользователе
     private String accessToken; // Поле для хранения токена доступа

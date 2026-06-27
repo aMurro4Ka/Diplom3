@@ -52,6 +52,7 @@ public class ConstructorTest extends BrowserConfiguration {
         Assert.assertEquals("Соусы", text); // Проверяем, что текст соответствует ожидаемому
     }
 
+
     // Тест на переход к разделу "Начинки" на главной странице
     @Test
     @DisplayName("Переход к разделу Начинки на главной странице")

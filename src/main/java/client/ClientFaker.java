@@ -2,6 +2,7 @@ package client;
 
 import com.github.javafaker.Faker;
 
+
 public class ClientFaker { // Объявляем класс ClientFaker
     // Метод для генерации случайного пользователя
     public static Client getRandomClient(){

@@ -2,6 +2,7 @@ package client;
 
 import lombok.Data; // Импорт аннотации Data из библиотеки Lombok
 
+
 @Data // Аннотация Lombok для автоматической генерации геттеров, сеттеров и т.д.
 public class Client { // Объявление публичного класса Client
 

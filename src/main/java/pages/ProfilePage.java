@@ -1,6 +1,8 @@
 package pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
+
 
 // Создаем класс ProfilePage для представления страницы личного кабинета
 public class ProfilePage {
