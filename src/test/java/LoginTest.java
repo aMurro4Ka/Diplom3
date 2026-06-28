@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
 
 import client.ClientFaker;
-
 import java.util.concurrent.TimeUnit;
 
 

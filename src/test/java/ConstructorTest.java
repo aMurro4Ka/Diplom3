@@ -10,6 +10,7 @@ import client.Client;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class ConstructorTest extends BrowserConfiguration {
     private Client client; // Объявляем переменную client для хранения данных пользователя
 

@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.concurrent.TimeUnit;
 
 
+
 //Класс для выбора браузера.
 public class BrowserConfiguration {
 

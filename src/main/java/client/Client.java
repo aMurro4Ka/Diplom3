@@ -1,5 +1,6 @@
 package client;
 
+
 import lombok.Data; // Импорт аннотации Data из библиотеки Lombok
 
 

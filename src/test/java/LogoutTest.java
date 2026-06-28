@@ -13,6 +13,7 @@ import client.ClientFaker;
 import java.util.concurrent.TimeUnit;
 
 
+
 public class LogoutTest extends BrowserConfiguration {
     private Client client; // Объявляем переменную client для хранения данных пользователя
     private String accessToken; // Объявляем переменную accessToken для хранения токена доступа

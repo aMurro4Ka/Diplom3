@@ -17,6 +17,7 @@ import io.restassured.RestAssured;
 import java.util.concurrent.TimeUnit;
 
 
+
 public class RegistrationTest extends BrowserConfiguration {
     private Client client;
     private String accessToken;
